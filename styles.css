@@ -1,43 +1,174 @@
 * {
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    cursor: default;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: 18px;
 }
 
-nav {
-    margin: .7% 0 0 27%;
+/* Define a aparência da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* largura */
 }
 
-.wrapper {
-    padding: .8%;
-    display: flex;
-    height: 7%;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+/* Define a aparência do preenchimento da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #2c96bf; /* cor de fundo */
+  border-radius: 0px; /* arredondamento das bordas */
 }
 
-.logo-img {
-        margin: 0 0 0 30%;
-        display: flex;
-        width: 7%;
+/* Define a aparência do fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #e8eff5; /* cor de fundo */
 }
 
-.nav-itens {
-    color: #7c43e4;
-    list-style: none; /* remove os marcadores padrão da lista */
-    display: flex; /* define a exibição como flex para alinhar os itens */
-    justify-content: center; /* alinha os itens ao centro horizontalmente */
-    white-space: nowrap;
+body {
+  background-color: #e8eff5;
 }
 
-.nav-item {
-    font-size: 90%;
-    margin: 0 10%;
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 100%;
+  z-index: 50;
+  background-color: #e8eff5;
 }
 
+.menu-container {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 800px;
+  font-size: 15px;
+  font-weight: bold;
+}
 
+.logo-container {
+  margin-left: 150px;
+}
 
+#logo-img {
+  display: inline-block;
+  max-width: 100%;
+  height: 50px;
+}
 
+li {
+  display: inline-block;
+  padding: 20px;
+  color: #2c96bf;
+}
 
+.container {
+  height: auto;
+}
 
+.home-left-container {
+  position: absolute;
+  display: inline-block;
+  margin-left: 150px;
+  height: 200px;
+  width: 800px;
+  margin-top: 250px;
+  z-index: 1;
+}
+
+.home-intro {
+  color: rgb(56, 56, 56);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.home-name {
+  color: rgb(56, 56, 56);
+  font-weight: 900;
+  line-height: 80px;
+  font-size: 42px;
+}
+
+.home-title {
+  color: rgb(56, 56, 56);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.resume-button {
+  display: block;
+  text-align: center;
+  width: 166px;
+  height: 38px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+.resume-button .front,
+.resume-button .back {
+  position: absolute;
+  display: block;
+  width: 166px;
+  height: 38px;
+  border: 1px solid #4c4c4d;
+  line-height: 40px;
+  transition: all 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  color: #4c4c4d;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.resume-button .front {
+  background-color: #e8eff5;
+  transform: translateZ(19px);
+  -webkit-transform: translateZ(19px);
+  -moz-transform: translateZ(19px);
+}
+.resume-button .back {
+  background-color: #4c4c4d;
+  color: #fff;
+  transform: rotateX(-90deg) translateZ(19px);
+  -webkit-transform: rotateX(-90deg) translateZ(19px);
+  -moz-transform: rotateX(-90deg) translateZ(19px);
+}
+.resume-button:hover {
+  transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+}
+
+.github-img {
+  display: inline-block;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.linkedin-img {
+  margin-left: 20px;
+  height: 30px;
+}
+
+.home-right-container {
+  position: absolute;
+  border-radius: 10px;
+  background-color: #e8eff5;
+  display: inline-block;
+  margin-left: 40px;
+  height: 400px;
+  width: 400px;
+  margin-top: 200px;
+  margin-left: 900px;
+  z-index: 1;
+  padding: 30px 35px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.triangle-background {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}

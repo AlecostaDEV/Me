@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html lang="en, pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+<html lang="pt-br, en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <title>Ale Costa</title>
-</head>
-
-<body>
-    <header>
-        <div class="wrapper">
-            <a>
-                <div>
-                    <img class="logo-img" src="./assets/LOGO DEV.png" alt="Dev-Logo" />
-                </div>
-            </a>
-            <nav>
-                <ul class="nav-itens">
-                    <li class="nav-item">home</li>
-                    <li class="nav-item">about me</li>
-                    <li class="nav-item">projects</li>
-                    <li class="nav-item">contact</li>
-                </ul>
-            </nav>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Alexandre Costa</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- INÍCIO HEADER -->
+        <div class="logo-container">
+          <img id="logo-img" src="./assets/Logo.png" alt="logo-img" />
         </div>
-    </header>
-</body>
 
+        <div class="menu-container">
+          <nav>
+            <ul>
+              <li>HOME</li>
+              <li>ABOUT ME</li>
+              <li>PROJECTS</li>
+              <li>CONTACT</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <!-- INÍCIO CORPO -->
+        <section>
+          <div class="home-left-container">
+            <h3 class="home-intro">Hello, I'm</h3>
+            <h1 class="home-name">ALEXANDRE COSTA</h1>
+            <h2 class="home-title">FRONT-END WEB DEVELOPER</h2>    
+            <a class="resume-button">
+              <span class="back">Download Resume</span>
+              <span class="front">Download Resume</span>
+           </a>       
+            <img class="github-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github-img"/>            
+            <img class="linkedin-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin-img"/>           
+          </div>
+          <div class="home-right-container">
+            
+          </div>
+          <img class="triangle-background" src="./assets/triangle2.png" alt="triangle-img">
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
