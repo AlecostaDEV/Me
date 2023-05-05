@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Alexandre Costa</title>
   </head>
+
   <body>
     <div class="container">
       <header>
@@ -17,7 +21,14 @@
         <div class="logo-container">
           <img id="logo-img" src="./assets/Logo.png" alt="logo-img" />
         </div>
-
+        <div class="language-container">
+          <p class="en-txt">en</p>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+          <p class="pt-br-txt">pt</p>
+        </div>
         <div class="menu-container">
           <nav>
             <ul>
@@ -31,22 +42,86 @@
       </header>
       <main>
         <!-- INÍCIO CORPO -->
-        <section>
+        <section class="home">
           <div class="home-left-container">
             <h3 class="home-intro">Hello, I'm</h3>
             <h1 class="home-name">ALEXANDRE COSTA</h1>
-            <h2 class="home-title">FRONT-END WEB DEVELOPER</h2>    
+            <h2 class="home-title">FRONT-END WEB DEVELOPER</h2>
             <a class="resume-button">
               <span class="back">Download Resume</span>
               <span class="front">Download Resume</span>
-           </a>       
-            <img class="github-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github-img"/>            
-            <img class="linkedin-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin-img"/>           
+            </a>
+            <img
+              class="github-img"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="github-img"
+            />
+            <img
+              class="linkedin-img"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+              alt="linkedin-img"
+            />
+            <img
+              class="instagram-img"
+              src="./assets/instagram.png"
+              alt="linkedin-img"
+            />
           </div>
           <div class="home-right-container">
+            <p class="home-phrase">
+              "First, solve the problem. Then, write the code."
+            </p>
+            <p class="quote">- John Johnson</p>
+          </div>
+          <div class="home-mytools-container">
+            <h1 class="my-tools-txt">My Tools</h1>
+
+            <div class="home-front-end">
+              <div class="ball">
+                <img class="dev-icon" src="assets/dev-icon.png" />
+              </div>
+              <h1 class="box-title">FrontEnd</h1>
+              <p class="box-txt">
+                My works are mostly front-end focused, HTML and CSS
+              </p>
+            </div>
+
+            <div class="home-java-script">
+              <div class="ball">
+                <p class="js">JS</p>
+              </div>
+              <h1 class="box-title">JavaScript</h1>
+              <p class="box-txt">
+                Such a powerful and dinamic tool, cant live without it
+              </p>
+            </div>
+
+            <div class="home-passion">
+              <div class="ball">
+                <img class="star" src="./assets/star.png" alt="star-img" />
+              </div>
+              <h1 class="box-title">Passion</h1>
+              <p class="box-txt">
+                My passion for coding is the strongest tool I have
+              </p>
+            </div>
+          </div>
+          <img
+            class="triangle-background"
+            src="./assets/triangle.png"
+            alt="triangle-img"
+          />
+          <img
+            class="triangle-left"
+            src="./assets/triangle-left.png"
+            alt="triangle-img"
+          />
+          <img class="vector" src="./assets/vector.png" alt="vector-img" />
+        </section>
+        <section class="about-me">
+          <div class="about-me-container">
             
           </div>
-          <img class="triangle-background" src="./assets/triangle2.png" alt="triangle-img">
         </section>
       </main>
     </div>
