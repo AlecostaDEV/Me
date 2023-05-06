@@ -47,10 +47,12 @@ header {
     color: #2c96bf;
     font-weight: 400;
 }
+  
 
 .pt-br-txt {    
-    color: #2c96bf;
+    color: rgb(56, 56, 56);
     font-weight: 400;
+    opacity: 0.4;
 }
 
 /* Estilo padrão para o elemento input */
@@ -119,6 +121,7 @@ header {
 #logo-img {
   display: inline-block;
   max-width: 100%;
+  width: 45px;
   height: 50px;
 }
 
@@ -261,12 +264,12 @@ li {
   right: 0;
 }
 
-.triangle-left {
+/* .triangle-left {
     position: absolute;
     margin-top: 800px;
     z-index: -1;
     left: 0;
-}
+} */
 
 .home-mytools-container {    
     position: absolute;
@@ -275,7 +278,7 @@ li {
 }
 
 
-.my-tools-txt {
+.my-tools-title {
     font-weight: 600;
     text-align: center;
     margin-bottom: 50px;
@@ -361,8 +364,9 @@ li {
 }
 
 .vector {
+    height: 70%;
     width: 100%;
-    margin-top: 2700px;
+    margin-top: 1250px;
     position: absolute;
     z-index: -1;
 }
@@ -370,8 +374,29 @@ li {
 .about-me-container {
     position: absolute;
     width: 100%;
-    height: 500px;
-    background-color: red;
+    height: auto;
     margin-top: 1200px;
-    z-index: 1;
+}
+
+.about-me-title {
+    text-align: center;
+    margin-top: 15px;
+    color: #2c96bf;
+    font-weight: 600; 
+}
+
+.about-me-image {   
+    margin-top: 60px; 
+    display: inline-block;    
+    margin-left: 115px;
+}
+
+.about-me-txt {
+    position: absolute;
+    margin-top: 210px;
+    display: inline-block;
+    max-width: 60%;
+    text-align: justify;
+    font-weight: 400;
+    color: #e8eff5;
 }

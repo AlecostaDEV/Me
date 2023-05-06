@@ -22,20 +22,20 @@
           <img id="logo-img" src="./assets/Logo.png" alt="logo-img" />
         </div>
         <div class="language-container">
-          <p class="en-txt">en</p>
-          <label class="toggle-switch">
-            <input type="checkbox" />
+          <p id="en-txt" class="en-txt">en</p>
+          <label id="toggle-switch" class="toggle-switch">
+            <input id="checkbox" type="checkbox" />
             <span class="slider"></span>
           </label>
-          <p class="pt-br-txt">pt</p>
+          <p id="pt-br-txt" class="pt-br-txt">pt</p>
         </div>
         <div class="menu-container">
           <nav>
             <ul>
-              <li>HOME</li>
-              <li>ABOUT ME</li>
-              <li>PROJECTS</li>
-              <li>CONTACT</li>
+              <li id="home"><a href="#home-left-container">HOME</a></li>
+              <li id="about-me"><a href="#about-me" class="scroll-link">ABOUT ME</a></li> 
+              <li id="projects">PROJECTS</li>
+              <li id="contact">CONTACT</li>
             </ul>
           </nav>
         </div>
@@ -44,12 +44,12 @@
         <!-- INÍCIO CORPO -->
         <section class="home">
           <div class="home-left-container">
-            <h3 class="home-intro">Hello, I'm</h3>
+            <h3 id="home-intro" class="home-intro">Hello, I'm</h3>
             <h1 class="home-name">ALEXANDRE COSTA</h1>
-            <h2 class="home-title">FRONT-END WEB DEVELOPER</h2>
+            <h2 id="home-title" class="home-title">FRONT-END WEB DEVELOPER</h2>
             <a class="resume-button">
-              <span class="back">Download Resume</span>
-              <span class="front">Download Resume</span>
+              <span id="resume-button-back" class="back">Download Resume</span>
+              <span id="resume-button-front" class="front">Download Resume</span>
             </a>
             <img
               class="github-img"
@@ -68,20 +68,20 @@
             />
           </div>
           <div class="home-right-container">
-            <p class="home-phrase">
+            <p id="home-phrase" class="home-phrase">
               "First, solve the problem. Then, write the code."
             </p>
             <p class="quote">- John Johnson</p>
           </div>
           <div class="home-mytools-container">
-            <h1 class="my-tools-txt">My Tools</h1>
+            <h1 id="my-tools-title" class="my-tools-title">MY TOOLS</h1>
 
             <div class="home-front-end">
               <div class="ball">
                 <img class="dev-icon" src="assets/dev-icon.png" />
               </div>
               <h1 class="box-title">FrontEnd</h1>
-              <p class="box-txt">
+              <p id="frontend-box-txt" class="box-txt">
                 My works are mostly front-end focused, HTML and CSS
               </p>
             </div>
@@ -91,8 +91,8 @@
                 <p class="js">JS</p>
               </div>
               <h1 class="box-title">JavaScript</h1>
-              <p class="box-txt">
-                Such a powerful and dinamic tool, cant live without it
+              <p id="javascript-box-txt" class="box-txt">
+                Such a powerful and dinamic tool, my favorite so far
               </p>
             </div>
 
@@ -100,8 +100,8 @@
               <div class="ball">
                 <img class="star" src="./assets/star.png" alt="star-img" />
               </div>
-              <h1 class="box-title">Passion</h1>
-              <p class="box-txt">
+              <h1 id="passion-title" class="box-title">Passion</h1>
+              <p id="passion-box-txt" class="box-txt">
                 My passion for coding is the strongest tool I have
               </p>
             </div>
@@ -110,20 +110,22 @@
             class="triangle-background"
             src="./assets/triangle.png"
             alt="triangle-img"
-          />
-          <img
-            class="triangle-left"
-            src="./assets/triangle-left.png"
-            alt="triangle-img"
-          />
+          />          
           <img class="vector" src="./assets/vector.png" alt="vector-img" />
         </section>
         <section class="about-me">
           <div class="about-me-container">
-            
+            <h1 id="about-me-title" class="about-me-title">ABOUT ME</h1>
+            <img class="about-me-image" src="./assets/Alexandre-img.png" alt="profile-image">
+            <p id="about-me-txt" class="about-me-txt">
+              Hi, I'm Alexandre Costa, a passionate FrontEnd developer from Brazil, currently working as a freelancer. I was introduced to coding when I was 17 years old, and since then, my passion for coding has never stopped increasing.
+              A few years later, I joined a group of developers in a FrontEnd based community called DevClub. It was there that I met my mentor, Rodolfo, who made me believe that I could be one of them. My goal is to keep improving my dev abilities.
+              <br><br>I love my wife and our little daughter, enjoy playing my classic Viola, going to church, cooking delicious meals, and building more code.
+            </p>
           </div>
         </section>
       </main>
     </div>
   </body>
+  <script src="./scripts.js"></script>
 </html>
