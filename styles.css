@@ -5,6 +5,7 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   line-height: 18px;
+  scroll-behavior: smooth;
 }
 
 /* Define a aparência da barra de rolagem */
@@ -128,8 +129,13 @@ header {
 
 li {
   display: inline-block;
-  padding: 20px;
+  padding: 20px;  
   color: #2c96bf;
+}
+
+a { /*ANCORAS DO MENU INICIAL*/
+    text-decoration: none;
+    color: #2c96bf;
 }
 
 .container {

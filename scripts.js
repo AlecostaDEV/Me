@@ -93,21 +93,9 @@ onLanguageChange = () => {
     }
 }
 
-const links = document.querySelectorAll('.scroll-link');
 
-links.forEach(link => {
-  link.addEventListener('click', (event) => {
-    event.preventDefault();
-    const href = link.getAttribute('href');
-    const target = document.querySelector(href);
-    const topOffset = 60; // ajuste o valor para deixar espaço entre o topo e o elemento
-    const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-    window.scrollTo({
-      top: elementPosition - topOffset,
-      behavior: "smooth"
-    });
-  });
-});
-
+//  PRÓXIMO PASSO:
+//    - DEIXAR O HOME E ABOUT ME NA FORMATAÇÃO CORRETA NO SWITCH
+//    - BARRA DE ROLAGEM SUAVE AO CLICAR NAS ANCORAS
 
 languageSwitch.addEventListener("change", onLanguageChange);

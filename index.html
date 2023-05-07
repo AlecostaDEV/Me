@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <div id="container" class="container">
       <header>
         <!-- INÍCIO HEADER -->
         <div class="logo-container">
@@ -32,10 +32,10 @@
         <div class="menu-container">
           <nav>
             <ul>
-              <li id="home"><a href="#home-left-container">HOME</a></li>
-              <li id="about-me"><a href="#about-me" class="scroll-link">ABOUT ME</a></li> 
-              <li id="projects">PROJECTS</li>
-              <li id="contact">CONTACT</li>
+              <li><a id="home" href="#container">HOME</a></li>
+              <li><a id="about-me" href="#about-me-title">ABOUT ME</a></li>
+              <li><a id="projects" href="#..."></a>PROJECTS</li>
+              <li><a id="contact" href="#..."></a>CONTACT</li>
             </ul>
           </nav>
         </div>
@@ -43,7 +43,7 @@
       <main>
         <!-- INÍCIO CORPO -->
         <section class="home">
-          <div class="home-left-container">
+          <div id="home-left-container" class="home-left-container">
             <h3 id="home-intro" class="home-intro">Hello, I'm</h3>
             <h1 class="home-name">ALEXANDRE COSTA</h1>
             <h2 id="home-title" class="home-title">FRONT-END WEB DEVELOPER</h2>
@@ -113,8 +113,8 @@
           />          
           <img class="vector" src="./assets/vector.png" alt="vector-img" />
         </section>
-        <section class="about-me">
-          <div class="about-me-container">
+        <section  class="about-me">
+          <div id="about-me" class="about-me-container">
             <h1 id="about-me-title" class="about-me-title">ABOUT ME</h1>
             <img class="about-me-image" src="./assets/Alexandre-img.png" alt="profile-image">
             <p id="about-me-txt" class="about-me-txt">
