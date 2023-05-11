@@ -119,6 +119,14 @@ header {
   margin-left: 150px;
 }
 
+.logo-container:hover {
+    opacity: .8;
+}
+
+.logo-container:active {
+    opacity: .6;
+}
+
 #logo-img {
   display: inline-block;
   max-width: 100%;
@@ -133,9 +141,17 @@ li {
   color: #2c96bf;
 }
 
-a { /*ANCORAS DO MENU INICIAL*/
+.menu{ /*ANCORAS DO MENU INICIAL*/
     text-decoration: none;
     color: #2c96bf;
+}
+
+.menu:hover {
+    opacity: .8;
+}
+
+.menu:active {
+    opacity: .6;
 }
 
 .container {
@@ -223,17 +239,35 @@ a { /*ANCORAS DO MENU INICIAL*/
 .github-img {
   display: inline-block;
   margin-top: 10px;
-  height: 30px;
+  height: 30px; 
+}
+.github-img:hover {
+    opacity: .6;
+}
+.github-img:active {
+    opacity: .4;
 }
 
 .linkedin-img { 
   margin-left: 33px;
   height: 30px;
 }
+.linkedin-img:hover {
+    opacity: .6;
+}
+.linkedin-img:active {
+    opacity: .4;
+}
 
 .instagram-img {
   margin-left: 33px;
   height: 30px;
+}
+.instagram-img:hover {
+    opacity: .6;
+}
+.instagram-img:active {
+    opacity: .4;
 }
 
 .home-right-container {
@@ -310,6 +344,7 @@ a { /*ANCORAS DO MENU INICIAL*/
     margin-top: -10px;
     margin-left: -10px;
 }
+
 
 .home-java-script {   
     text-align: center; 
@@ -406,3 +441,172 @@ a { /*ANCORAS DO MENU INICIAL*/
     font-weight: 400;
     color: #e8eff5;
 }
+
+#section-projects {
+    height: auto;
+    width: 100%;    
+    position: absolute;    
+    margin-top: 1800px;     
+}
+
+.projects-div {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;  
+    justify-content: center;    
+}
+
+#projects-title {
+    text-align: center;
+    margin-top: 15px;
+    color: #2c96bf;
+    font-weight: 600; 
+    margin-bottom: 100px;
+}
+
+#projects-under-div {
+    text-align: center; 
+    border-radius: 10px;
+    background-color: #e8eff5;
+    display: inline-block;     
+    height: 66vh;
+    width: 45vw;  
+    padding: 30px 55px;
+    padding-right: 13%;  
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px;   
+    z-index: 1; 
+       
+}
+
+#project-name {
+    margin-top: 50px;
+    display: flex;
+    align-items: normal;
+    font-weight: 400;
+    color: #4c4c4d;
+}
+
+#project-txt {
+    margin-top: 40px;
+    text-align: justify;
+    font-weight: 300;
+    color: #4c4c4d;
+}
+
+.button-1 {
+	 display: inline-block;
+	 position: relative;
+	 padding: 9px 20px 10px;
+	 margin-top: 140px;
+	 border-radius: 100px;
+	 -webkit-border-radius: 100px;
+	 -moz-border-radius: 100px;
+	 transition: transform .35s ease, box-shadow .35s ease;
+	 -webkit-transition: transform .35s ease, box-shadow .35s ease;
+	 -moz-transition: transform .35s ease, box-shadow .35s ease;
+	 text-transform: uppercase;
+	 text-decoration: none;
+}
+.button-1:hover {
+	 transform: translateY(-3px);
+	 -webkit-transform: translateY(-3px);
+	 -moz-transform: translateY(-3px);
+	 -ms-transform: translateY(-3px);
+	 box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.08);
+	 -webkit-box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.08);
+	 -moz-box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.08);
+}
+.button-1 .lb{
+	 display: block;
+	 font-size: 14px;
+	 font-weight: bold;
+	 color:#4c4c4d;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+#projects-above-div {    
+    border-radius: 10px;
+    background-color: #e8eff5;
+    display: inline-block; 
+    margin-left: -150px;  
+    margin-top: -25px; 
+    height: auto;
+    width: 45vw;   
+    box-shadow: rgba(0, 0, 0, 0.05) 5px 0px 10px;     
+    z-index: 2;
+}
+
+.project-img {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#section-contact {
+    position: absolute;     
+    height: 100%;
+    width: 100%;           
+    margin-top: 2500px;
+      
+}
+
+#contact-div {
+    width: 100%;
+    height: 500px;     
+}
+
+#contact-me-title {    
+    text-align: center;
+    margin-top: 15px;
+    color: #2c96bf;
+    font-weight: 600; 
+    margin-bottom: 100px;
+}
+
+#contact-left-div {
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    background-color: aqua;
+}
+
+#contact-right-div {
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    background-color: rgb(22, 67, 67);
+}
+
+footer {      
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin-top: 5000px;
+    width: 100%;
+    height: 65px;      
+    background-color: #e8eff5;
+    align-items: center; 
+    text-align: center;
+    z-index: 50;
+}
+
+#footer-logo-img { 
+    max-width: 100%;
+    width: 45px;
+    height: 50px;
+}
+
+#footer-logo-img:hover {
+    opacity: .8;
+}
+
+#footer-logo-img:active {
+    opacity: .6;
+}
+
+
+
+
+
+
+

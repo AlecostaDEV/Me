@@ -18,8 +18,10 @@
     <div id="container" class="container">
       <header>
         <!-- INÍCIO HEADER -->
-        <div class="logo-container">
-          <img id="logo-img" src="./assets/Logo.png" alt="logo-img" />
+        <div class="logo-container"> 
+          <a href="#container">
+          <img id="logo-img" src="./assets/Logo.png" alt="logo-img">
+          </a>
         </div>
         <div class="language-container">
           <p id="en-txt" class="en-txt">en</p>
@@ -32,10 +34,10 @@
         <div class="menu-container">
           <nav>
             <ul>
-              <li><a id="home" href="#container">HOME</a></li>
-              <li><a id="about-me" href="#about-me-title">ABOUT ME</a></li>
-              <li><a id="projects" href="#..."></a>PROJECTS</li>
-              <li><a id="contact" href="#..."></a>CONTACT</li>
+              <li><a class="menu" id="home" href="#container">HOME</a></li>
+              <li><a class="menu" id="about-me" href="#about-me-title">ABOUT ME</a></li>
+              <li><a class="menu" id="projects" href="#section-projects">PROJECTS</a></li>  
+              <li><a class="menu" id="contact" href="#contact-me-title">CONTACT</a></li>            
             </ul>
           </nav>
         </div>
@@ -51,21 +53,25 @@
               <span id="resume-button-back" class="back">Download Resume</span>
               <span id="resume-button-front" class="front">Download Resume</span>
             </a>
-            <img
-              class="github-img"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              alt="github-img"
-            />
+            <a href="https://github.com/AlecostaDEV" target="_blank">
+              <img
+                class="github-img"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github-img"
+              />
+            </a>
             <img
               class="linkedin-img"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
               alt="linkedin-img"
             />
-            <img
-              class="instagram-img"
-              src="./assets/instagram.png"
-              alt="linkedin-img"
-            />
+            <a href="https://www.instagram.com/xandcosta91/" target="_blank">
+              <img
+                class="instagram-img"
+                src="./assets/instagram.png"
+                alt="linkedin-img"
+              />
+          </a>
           </div>
           <div class="home-right-container">
             <p id="home-phrase" class="home-phrase">
@@ -124,8 +130,39 @@
             </p>
           </div>
         </section>
-      </main>
-    </div>
+        <section id="section-projects">          
+            <h1 id="projects-title">PROJECTS</h1>
+            <div class="projects-div">
+              <div id="projects-under-div">
+                <h1 id="project-name">Project title</h1>
+                <p id="project-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perferendis molestias atque eos quas sint sed perspiciatis quasi pariatur, blanditiis laudantium aperiam libero, quia eius quo distinctio necessitatibus dicta repellat!</p>                
+                <a href="javascript:;" class="code_view button-1">
+                  <span class="lb">VISIT</span>
+               </a>
+                </div>  
+                <div id="projects-above-div">
+                  <img class="project-img" src="./assets/Screens.png" alt="">
+                </div>
+            </div>        
+        </section>
+        <section id="section-contact">
+          <h1 id="contact-me-title">CONTACT ME</h1>
+        <div id="contact-div">          
+          <div id="contact-left-div">
+            <!--aqui vai a imagem-->
+          </div>
+          <div id="contact-right-div">
+            <!--aqui vai o formulário-->
+          </div>
+        </div>        
+      </section>       
+      </main> 
+      <footer>                  
+        <a href="#container">
+        <img id="footer-logo-img" src="./assets/Logo.png" alt="logo-img">
+        </a>                    
+    </footer> 
+    </div>          
   </body>
   <script src="./scripts.js"></script>
 </html>

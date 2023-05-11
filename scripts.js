@@ -47,7 +47,7 @@ onLanguageChange = () => {
         homeIntro.innerHTML = "Olá, eu sou"
         resumeButtonBack.innerHTML = "Baixar Currículo"
         resumeButtonFront.innerHTML = "Baixar Currículo"
-        homePhrase.innerHTML = "Primeiro, resolva o problema. Depois, escreva o código."
+        homePhrase.innerHTML = "Primeiro, solucione o problema. Depois, escreva o código."
 
         //HOME TOOLS
         myToolsTitle.innerHTML = "FERRAMENTAS"
@@ -83,7 +83,7 @@ onLanguageChange = () => {
         //HOME TOOLS
         myToolsTitle.innerHTML = "MY TOOLS"
         frontendBoxTxt.innerHTML = "My works are mostly front-end focused, HTML and CSS"
-        javascriptBoxTxt.innerHTML = "FSuch a powerful and dinamic tool, my favorite so far"
+        javascriptBoxTxt.innerHTML = "Such a powerful and dinamic tool, my favorite so far"
         passionTitle.innerHTML = "Passion"
         passionBoxTxt.innerHTML = "My passion for coding is the strongest tool I have"
 
@@ -94,8 +94,6 @@ onLanguageChange = () => {
 }
 
 
-//  PRÓXIMO PASSO:
-//    - DEIXAR O HOME E ABOUT ME NA FORMATAÇÃO CORRETA NO SWITCH
-//    - BARRA DE ROLAGEM SUAVE AO CLICAR NAS ANCORAS
+
 
 languageSwitch.addEventListener("change", onLanguageChange);
